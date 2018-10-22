@@ -1,0 +1,17 @@
+package testetdd;
+
+public class Calculo {
+    private int n1, n2;
+
+    public Calculo(int n1, int n2) {
+        this.n1 = n1;
+        this.n2 = n2;
+    }
+    
+    public int testarNumero(){
+        int total = n1*n2;
+        return total;
+    }
+    
+    
+}
